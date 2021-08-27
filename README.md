@@ -1,14 +1,14 @@
 # SFTP
 
-##Notes and Scripts   
+##Notes and Scripts     
 
-###On Unix Server:
-SSH Server changes:
-sudo nano /etc/ssh/sshd_config
-Subsystem sftp internal-sftp -l INFO
-no password
-publickeyauth = yes
-sudo systemctl restart ssh
+###On Unix Server:   
+SSH Server changes:   
+sudo nano /etc/ssh/sshd_config   
+Subsystem sftp internal-sftp -l INFO   
+no password   
+publickeyauth = yes   
+sudo systemctl restart ssh   
 
 ###For inbound:
 (In user's home directory)
